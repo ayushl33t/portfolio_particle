@@ -9,6 +9,9 @@ body, html {
   line-height: 1.8em;
   color: #666;
 }
+.nav-bg-color{
+  background-color: #232741;
+}
 
 #particles-js {
   background-color: #232741;
