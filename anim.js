@@ -3,6 +3,12 @@ sr.reveal('.navbar', {
   duration: 1000,
   origin:'bottom'
 });
+sr.reveal('#ayush', {
+  duration: 700,
+  delay:800,
+  origin:'left',
+  distance:'800px'
+});
 sr.reveal('.ptext', {
   duration: 700,
   origin:'top',
