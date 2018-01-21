@@ -40,4 +40,6 @@ section{
 }
 
 
-/* using css3 variables to make a bouncy arrow */
+.plist{
+  text-align: left;
+}

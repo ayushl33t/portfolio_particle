@@ -17,7 +17,7 @@
 
 <body>
   <!-- navbar -->
-<nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top" style="font-family: 'Cookie', cursive; font-size:25px">
+<nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top" style="font-family: 'Cookie', cursive; font-size:25px; opacity: 0.80;">
   <a class="navbar-brand" href="#intro" style="cursive; font-size:25px">Home</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
       <span class="navbar-toggler-icon"></span>
@@ -28,7 +28,7 @@
         <a class="nav-link" href="#skills">Skills</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
+        <a class="nav-link" href="#projects">Projects</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Link</a>
@@ -74,27 +74,54 @@
         <strong>Embedded Electronics:</strong>  Raspberry PI <br>
         <strong>Containers:</strong>  Docker Swarm Cluster | Kubernetes <br>
         <strong>Servers:</strong>  SSH | FTP | Apache Web Server | NFS | Nginx <br>
-        <strong>Databases:</strong>  MySQL | MariaDB
+        <strong>Databases:</strong>  MySQL | MariaDB<br>
+        <strong>Graphincs:</strong>  Adobe Photoshop | Adobe Illustrator
         </span>
       </div>
     </div>
   </div>
 </section>
-
+<!-- projet section -->
 <section id="projects">
   <div class="container">
     <div class="row">
       <div class="col-md-8 col-sm-8">
-        <h1>Some Projects I did for Fun:</h1>
-
-
+        <h1>Some Fun Projects I did!:</h1>
+        <div class="plist">
+          <ul><li><strong>Nebula: Python Based Cloud Service Provider:</strong></li>
+            <ul><li>Implemented this project in a team of 5 during summer internship.</li>
+                <li>This project provides services like Storage[Block & Object], Software, Platform, Infrastructure, and Containers as a service over a user friendly UI designed using web-technologies HTML5, CSS3, JS, Ajax and backend on Python-cgi and mariadb.</li>
+            </ul>
+          </ul>
+          <ul><li><strong>Stardust- A Multi Cloud Data Vault: [Raj. Govt. DST Funded]</strong></li>
+            <ul><li>A fully automated Python-cgi based web app which efficiently encrypts the user data (using Cryptographic Algorithms like SHA256, RSA and Public Private key pairs) & stores encrypted data over 3 different cloud storage providers in a single click.</li>
+            </ul>
+          </ul>
+          <ul><li><strong>Pothole Detection System:</strong></li>
+            <ul><li>Used Raspberry Pi, AWS RDS, Google Maps API, Paired with an Android Device to display and notify user about the nearest potholes.</li>
+            </ul>
+          </ul>
+          <ul><li><strong>Python Facial/Object Recognition:</strong></li>
+            <ul><li>Using Python OpenCV module and its haar cascades classifier for facial detection and recognition.</li>
+            </ul>
+          </ul>
+          <ul><li><strong>Container Based Load Balancer:</strong></li>
+            <ul><li>Python-cgi based web app which uses docker to deploy and configure Nginx server for a Website.
+            System can be used to prevent the crashing of a website in case of huge traffic.</li>
+            </ul>
+          </ul>
+        </div>
       </div>
       <div class="col-md-4 col-sm-4">
-
+        <div class="showcase-right">
+          <img src="/res/proj.png" alt="Skill img" style="padding-top:50%">
+        </div>
       </div>
     </div>
   </div>
 </section>
+
+
 
 <!-- particlejs scrpits -->
 <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
